@@ -1,0 +1,205 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* header styling */
+
+.head {
+  height: 100px;
+  width: auto;
+  background-color: #4d4142;
+}
+.primary-h {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  padding: 30px;
+}
+
+/* section one styling
+ */
+.sec-one {
+  height: 441px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-container {
+  width: 980px;
+  height: 173px;
+}
+.text {
+  color: #000000;
+}
+.one-heading {
+  padding-bottom: 29px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+}
+.one-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+/* second section  */
+.sec-two {
+  height: 441px;
+  background: #ffedcd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two-container {
+  width: 980px;
+  height: 173px;
+}
+.two-heading {
+  padding-bottom: 29px;
+
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+}
+.two-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+/* table section  */
+
+.con-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-table {
+  width: 980px;
+  height: 254px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  min-width: 800px;
+  margin: 84px 100px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #f0e9d2;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+/* section three */
+.sec-three {
+  height: 441px;
+  background: #ffedcd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three-conteiner {
+  width: 980px;
+  height: 173px;
+}
+.three-heading {
+  padding-bottom: 29px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+}
+.three-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+}
+/* cube section  */
+.sec-cube {
+  height: 441px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cube-container {
+  width: 500px;
+  height: 350px;
+  border-radius: 36px;
+  background: #94dd8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.dot {
+  width: 80px;
+  height: 80px;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-left {
+  top: 30px;
+  left: 43px;
+}
+.top-right {
+  top: 30px;
+  right: 39px;
+}
+.mid-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bottom-left {
+  bottom: 41px;
+  left: 43px;
+}
+.bottom-right {
+  bottom: 41px;
+  right: 39px;
+}
+
+/* fourth section  */
+.sec-four {
+  height: 441px;
+  background: #ffedcd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.four-conteiner {
+  width: 718px;
+  height: 114px;
+}
+.four-heading {
+  padding-bottom: 29px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+}
+.four-desciption {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+}
